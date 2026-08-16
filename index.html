@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Miruthula | Portfolio</title>
 
     <style>
@@ -11,95 +10,75 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: Arial, sans-serif;
         }
 
         body {
+            font-family: Arial, sans-serif;
             background: #0f0f14;
             color: white;
-            line-height: 1.6;
+            text-align: center;
         }
 
         nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 8%;
-            background: #15151d;
-            position: sticky;
-            top: 0;
+            padding: 20px;
+            background: #181820;
         }
 
         nav h2 {
             color: #ff69b4;
         }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-        }
-
-        nav a:hover {
-            color: #ff69b4;
-        }
-
         .hero {
-            min-height: 90vh;
+            min-height: 80vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            text-align: center;
             padding: 30px;
         }
 
         .hero h1 {
-            font-size: 50px;
-            margin-bottom: 10px;
+            font-size: 45px;
+            margin-bottom: 15px;
         }
 
-        .hero h1 span {
+        .hero span {
             color: #ff69b4;
         }
 
         .hero p {
+            color: #cccccc;
             font-size: 20px;
-            color: #ccc;
             margin-bottom: 25px;
         }
 
         .btn {
-            display: inline-block;
-            padding: 12px 25px;
             background: #ff69b4;
             color: white;
-            text-decoration: none;
+            padding: 12px 25px;
             border-radius: 25px;
+            text-decoration: none;
         }
 
         section {
-            padding: 70px 8%;
+            padding: 60px 20px;
         }
 
-        section h2 {
-            text-align: center;
+        h2 {
             color: #ff69b4;
-            margin-bottom: 30px;
-            font-size: 32px;
+            margin-bottom: 20px;
         }
 
         .about {
-            max-width: 800px;
+            max-width: 700px;
             margin: auto;
-            text-align: center;
-            color: #ccc;
+            color: #cccccc;
         }
 
         .skills {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
+            flex-wrap: wrap;
             gap: 15px;
         }
 
@@ -107,22 +86,20 @@
             background: #1c1c27;
             padding: 15px 25px;
             border-radius: 10px;
-            border: 1px solid #333;
         }
 
         .projects {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
+            flex-wrap: wrap;
             gap: 20px;
         }
 
         .project {
-            background: #1c1c27;
-            padding: 25px;
             width: 280px;
+            padding: 25px;
+            background: #1c1c27;
             border-radius: 15px;
-            text-align: center;
         }
 
         .project h3 {
@@ -131,25 +108,99 @@
         }
 
         .project p {
-            color: #ccc;
-        }
-
-        .contact {
-            text-align: center;
-        }
-
-        .contact p {
-            color: #ccc;
-            margin: 10px;
+            color: #cccccc;
         }
 
         footer {
-            text-align: center;
             padding: 20px;
-            background: #15151d;
-            color: #aaa;
+            background: #181820;
+            color: #aaaaaa;
         }
+    </style>
+</head>
 
-        @media (max-width: 600px) {
-            nav {
-                padding: 15px
+<body>
+
+    <nav>
+        <h2>Miruthula ✨</h2>
+    </nav>
+
+    <div class="hero">
+        <h1>Hi, I'm <span>Miruthula</span> 👋</h1>
+
+        <p>B.Tech IT Student | Aspiring AI Engineer</p>
+
+        <a href="#about" class="btn">Explore My Portfolio</a>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about">
+            <p>
+                I'm a B.Tech Information Technology student passionate about
+                programming, technology and Artificial Intelligence.
+                I love learning new skills and building creative projects.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">C</div>
+            <div class="skill">Java</div>
+            <div class="skill">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>My Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+                <h3>SkillMap AI</h3>
+                <p>
+                    An AI-based skill and career recommendation project
+                    for students.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Smart Agriculture</h3>
+                <p>
+                    A smart technology project focused on agriculture
+                    and irrigation.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Healthy Food App</h3>
+                <p>
+                    A simple application that provides healthy food
+                    suggestions.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+
+        <p>Email: yourmail@gmail.com</p>
+        <p>GitHub: github.com/yourusername</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Miruthula | My Portfolio</p>
+    </footer>
+
+</body>
+</html>

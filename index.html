@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Miruthula | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f0f14;
+            color: white;
+            line-height: 1.6;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: #15151d;
+            position: sticky;
+            top: 0;
+        }
+
+        nav h2 {
+            color: #ff69b4;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #ff69b4;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .hero h1 span {
+            color: #ff69b4;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #ccc;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #ff69b4;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        section {
+            padding: 70px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #ff69b4;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        .about {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            color: #ccc;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #1c1c27;
+            padding: 15px 25px;
+            border-radius: 10px;
+            border: 1px solid #333;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .project {
+            background: #1c1c27;
+            padding: 25px;
+            width: 280px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .project h3 {
+            color: #ff69b4;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #ccc;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            color: #ccc;
+            margin: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #15151d;
+            color: #aaa;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 15px

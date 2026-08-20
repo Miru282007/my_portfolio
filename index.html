@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Miruthula | AI Engineer Portfolio</title>
+    <title>Miruthula | AI Engineer</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,9 +16,9 @@
     <header>
         <nav class="navbar">
 
-            <h2 class="logo">
+            <a href="#home" class="logo">
                 Miruthula<span>.</span>
-            </h2>
+            </a>
 
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -33,7 +33,7 @@
     </header>
 
 
-    <!-- Home -->
+    <!-- HOME -->
     <section id="home" class="hero">
 
         <div class="hero-image">
@@ -42,95 +42,74 @@
 
         <div class="hero-content">
 
-            <p class="hello">HELLO, I'M</p>
+            <p class="small-text">HELLO, I'M</p>
 
-            <h1>Miruthula</h1>
+            <h1>Miruthula<span>.</span></h1>
 
-            <h2>
-                B.Tech IT Student
-                <br>
-                <span id="typing"></span>
-            </h2>
+            <h2>B.Tech IT Student</h2>
+
+            <h3>
+                Aspiring <span id="typing-text">AI Engineer</span>
+            </h3>
 
             <p class="intro">
-                I love technology, programming and building
-                creative solutions that solve real-world problems.
+                I am passionate about programming, artificial intelligence
+                and building creative technology solutions.
             </p>
 
-            <div class="buttons">
-                <a href="#projects" class="btn">View My Work</a>
-                <a href="#contact" class="btn second">Contact Me</a>
-            </div>
+            <a href="#projects" class="btn">
+                Explore My Projects →
+            </a>
 
         </div>
 
     </section>
 
 
-    <!-- About -->
+    <!-- ABOUT -->
     <section id="about" class="section">
 
-        <p class="section-small">GET TO KNOW ME</p>
+        <p class="small-text">GET TO KNOW ME</p>
 
         <h2>About <span>Me</span></h2>
 
         <div class="about-box">
 
-            <p>
-                I am a B.Tech Information Technology student
-                interested in Artificial Intelligence, web development
-                and programming.
-            </p>
+            <div class="about-text">
 
-            <p>
-                I enjoy learning new technologies and creating
-                useful projects that turn ideas into real solutions.
-            </p>
+                <p>
+                    I am a B.Tech Information Technology student with a
+                    strong interest in software development and artificial
+                    intelligence.
+                </p>
 
-   <section id="skills" class="skills">
-    <p class="small-text">WHAT I KNOW</p>
-    <h2>My <span>Skills</span></h2>
+                <p>
+                    I enjoy learning programming, solving problems and
+                    turning ideas into practical projects.
+                </p>
 
-    <div class="skills-container">
+                <p>
+                    My goal is to continuously improve my technical skills
+                    and grow into a skilled AI Engineer.
+                </p>
 
-        <div class="skill-card">
-            <h3>C</h3>
-            <p>Problem Solving</p>
-        </div>
+            </div>
 
-        <div class="skill-card">
-            <h3>C++</h3>
-            <p>DSA &amp; Logic</p>
-            
-        </div>
-
-        <div class="skill-card">
-            <h3>Java</h3>
-            <p>OOP &amp; Applications</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>Python</h3>
-            <p>AI &amp; Automation</p>
-        </div>
-
-    </div>
-   </section>     
-            <div class="about-details">
+            <div class="about-info">
 
                 <div>
-                    <strong>Education</strong>
-                    <p>B.Tech Information Technology</p>
+                    <span>Education</span>
+                    <strong>B.Tech Information Technology</strong>
                 </div>
 
                 <div>
-                    <strong>Focus</strong>
-                    <p>Artificial Intelligence & Web Development</p>
+                    <span>Focus</span>
+                    <strong>AI & Software Development</strong>
                 </div>
 
                 <div>
-                    <strong>Goal</strong>
-                    <p>Aspiring AI Engineer</p>
+                    <span>Goal</span>
+                    <strong>AI Engineer</strong>
                 </div>
 
             </div>
@@ -138,56 +117,260 @@
         </div>
 
     </section>
-    <!-- Projects Section -->
-<section id="projects" class="projects">
 
-    <p class="small-text">MY WORK</p>
-    <h2>Featured <span>Projects</span></h2>
 
-    <div class="projects-container">
+    <!-- SKILLS -->
+    <section id="skills" class="section">
 
-        <div class="project-card">
+        <p class="small-text">WHAT I KNOW</p>
+
+        <h2>My <span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-number">01</div>
+                <h3>C</h3>
+                <p>Problem Solving</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-number">02</div>
+                <h3>C++</h3>
+                <p>DSA &amp; Logic</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-number">03</div>
+                <h3>Java</h3>
+                <p>OOP &amp; Applications</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-number">04</div>
+                <h3>Python</h3>
+                <p>AI &amp; Automation</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+        <p class="small-text">MY WORK</p>
+
+        <h2>Featured <span>Projects</span></h2>
+
+        <!-- Main Project -->
+        <div class="featured-project">
+
+            <div class="project-tag">FEATURED PROJECT</div>
+
             <h3>SkillMap AI</h3>
+
             <p>
-                An AI-based learning guide that analyzes skills
-                and recommends courses for career growth.
+                An AI-inspired career learning platform that analyzes
+                a student's current skills and provides a personalized
+                learning path with recommended courses.
             </p>
-            <span>HTML • CSS • JavaScript</span>
+
+            <div class="tech-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>AI</span>
+            </div>
+
+            <a href="#" class="project-btn">
+                View Project →
+            </a>
+
         </div>
 
-        <div class="project-card">
-            <h3>Calculator</h3>
-            <p>
-                A simple and responsive calculator built to
-                perform basic mathematical operations.
-            </p>
-            <span>HTML • CSS • JavaScript</span>
+
+        <!-- Other Projects -->
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <div class="project-icon">01</div>
+
+                <h3>Calculator</h3>
+
+                <p>
+                    A simple and responsive calculator designed to
+                    perform everyday mathematical operations.
+                </p>
+
+                <div class="project-tech">
+                    HTML • CSS • JavaScript
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-icon">02</div>
+
+                <h3>BMI Calculator</h3>
+
+                <p>
+                    A simple web application that calculates BMI
+                    using height and weight with an easy interface.
+                </p>
+
+                <div class="project-tech">
+                    HTML • CSS • JavaScript
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="project-card">
-            <h3>BMI Calculator</h3>
-            <p>
-                A web application that calculates BMI based
-                on height and weight with a simple interface.
-            </p>
-            <span>HTML • CSS • JavaScript</span>
+    </section>
+
+
+    <!-- JOURNEY -->
+    <section id="journey" class="section">
+
+        <p class="small-text">MY JOURNEY</p>
+
+        <h2>Learning <span>Journey</span></h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <span>01</span>
+                <div>
+                    <h3>Programming Foundations</h3>
+                    <p>
+                        Building strong foundations in C, C++ and
+                        problem solving.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span>02</span>
+                <div>
+                    <h3>Java &amp; Data Structures</h3>
+                    <p>
+                        Learning object-oriented programming,
+                        algorithms and data structures.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span>03</span>
+                <div>
+                    <h3>Python &amp; AI</h3>
+                    <p>
+                        Exploring Python, artificial intelligence
+                        and machine learning concepts.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span>04</span>
+                <div>
+                    <h3>Future Goal</h3>
+                    <p>
+                        Growing towards a career as an AI Engineer
+                        and building meaningful projects.
+                    </p>
+                </div>
+            </div>
+
         </div>
 
-    </div>
+    </section>
 
-</section>
-    
 
-    
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
 
-    <!-- Footer -->
+        <p class="small-text">MY ACHIEVEMENTS</p>
+
+        <h2>Achievements <span>&amp; Milestones</span></h2>
+
+        <div class="achievement-grid">
+
+            <div class="achievement-card">
+                <span class="achievement-icon">🏆</span>
+                <h3>NPTEL Certification</h3>
+                <p>
+                    Completed Business Fundamentals for Entrepreneurs
+                    certification through NPTEL.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <span class="achievement-icon">💻</span>
+                <h3>Coding Practice</h3>
+                <p>
+                    Practicing programming, problem solving and
+                    algorithmic challenges.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <span class="achievement-icon">🚀</span>
+                <h3>Project Development</h3>
+                <p>
+                    Building projects to improve programming and
+                    practical development skills.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+
+        <p class="small-text">LET'S CONNECT</p>
+
+        <h2>Contact <span>Me</span></h2>
+
+        <p class="contact-text">
+            Have an idea or opportunity? Let's connect and
+            build something amazing.
+        </p>
+
+        <div class="contact-links">
+
+            <a href="mailto:yourmail@gmail.com">
+                ✉️ Email
+            </a>
+
+            <a href="https://github.com/Miru282007" target="_blank">
+                💻 GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/miruthula-venky-798a31364/"
+               target="_blank">
+                🔗 LinkedIn
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
     <footer>
 
         <h3>Miruthula<span>.</span></h3>
 
         <p>Made with 🤍 by Miruthula</p>
-
-        
 
     </footer>
 

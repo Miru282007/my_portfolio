@@ -1,10 +1,9 @@
-const typingText = document.getElementById("typing");
+const typingText = document.getElementById("typing-text");
 
 const words = [
-    "Aspiring AI Engineer",
-    "Web Developer",
-    "Problem Solver",
-    "Tech Enthusiast"
+    "AI Engineer",
+    "Software Developer",
+    "Problem Solver"
 ];
 
 let wordIndex = 0;
@@ -16,6 +15,7 @@ function typeEffect() {
     const currentWord = words[wordIndex];
 
     if (!deleting) {
+
         typingText.textContent =
             currentWord.substring(0, charIndex + 1);
 
@@ -23,7 +23,7 @@ function typeEffect() {
 
         if (charIndex === currentWord.length) {
             deleting = true;
-            setTimeout(typeEffect, 1200);
+            setTimeout(typeEffect, 1500);
             return;
         }
 
@@ -36,11 +36,7 @@ function typeEffect() {
 
         if (charIndex === 0) {
             deleting = false;
-            wordIndex++;
-
-            if (wordIndex === words.length) {
-                wordIndex = 0;
-            }
+            wordIndex = (wordIndex + 1) % words.length;
         }
     }
 
